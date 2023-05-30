@@ -1,4 +1,4 @@
-import { set_image_data } from "rainbow_filter.js";
+import { set_image_data } from "./rainbow_filter.js";
 
 function loadImage(e) {
     let file = e.target.files[0];
