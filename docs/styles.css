@@ -50,8 +50,8 @@ div#background {
     background: linear-gradient(135deg, var(--content), var(--tinted-content), var(--dark-content));
     mask-repeat: repeat;
     -webkit-mask-repeat: repeat;
-    mask-image: url("/assets/images/tile.svg");
-    -webkit-mask-image: url("/assets/images/tile.svg")
+    mask-image: url("assets/images/tile.svg");
+    -webkit-mask-image: url("assets/images/tile.svg")
 }
 
 h1 {
