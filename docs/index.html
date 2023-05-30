@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="msapplication-TileColor" content="#ffc0fe">
+    <meta name="theme-color" content="#ffc0fe">
+
+    <title>Rainbow Filter</title>
+    <meta name="title" content="Rainbow Filter">
+
+    <link rel="stylesheet" href="/styles.css">
+    <script type="module" src="/assets/send_image.js"></script>
+</head>
+
+<body>
+    <div id="content">
+        <h1>Rainbow Filter</h1>
+        <p>Upload an image to make rainbow (brrrrr):</p>
+        <p><input type="file" id="image" name="image"></p>
+        <p><em><strong>Max image size: 2048x2048. (This is a browser limitation!)</strong></em></p>
+
+        <div>
+            <script type="module">
+                import init from "/assets/rainbow_filter.js";
+
+                init();
+            </script>
+        </div>
+
+        <div id="canvas-container"></div>
+    </div>
+    <div id="background"></div>
+</body>
+
+</html>
