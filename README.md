@@ -8,4 +8,4 @@ This took us around 5 hours, completely learning from scratch.
 
 This project uses wgpu, compiling from Rust to wasm.
 
-Just go to [here](https://mg138.github.io/rainbow-filter) and upload an image, and see your image having a rainbow effect c:
+Just go to [here](https://msparkles.github.io/rainbow-filter) and upload an image, and see your image having a rainbow effect c:
